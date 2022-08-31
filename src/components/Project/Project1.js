@@ -17,10 +17,10 @@ function Project1() {
           </RubberBand>
         </div>
         <div className="proj-names">
-          {ProjectData.map((data) => {
+          {ProjectData.map((data, index) => {
             return (
               <Pulse delay={data.delay}>
-                <div className={data.projectClass}>
+                <div className={data.projectClass} key={index}>
                   <div className="proj-image"></div>
                   <div className="proj-explain">
                     <div className="head-title">
