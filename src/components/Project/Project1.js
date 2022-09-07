@@ -19,8 +19,8 @@ function Project1() {
         <div className="proj-names">
           {ProjectData.map((data, index) => {
             return (
-              <Pulse delay={data.delay}>
-                <div className={data.projectClass} key={index}>
+              <Pulse key={index} delay={data.delay}>
+                <div className={data.projectClass}>
                   <div className="proj-image"></div>
                   <div className="proj-explain">
                     <div className="head-title">

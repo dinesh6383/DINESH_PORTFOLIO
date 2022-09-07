@@ -34,6 +34,17 @@ const ProjectData = [
   },
   {
     projectClass: "proj-four",
+    name: "Youtube-clone",
+    explanation:
+      "I have created a Youtube application where the data is being fetched from RAPID API. Here I created search functionality, Video page and Channel page.",
+    htmlPercent: "8%",
+    cssPercent: "34%",
+    jsPercent: "57%",
+    projectLink: "https://yt-media.netlify.app/",
+    delay: 500,
+  },
+  {
+    projectClass: "proj-five",
     name: "To-Do list",
     explanation:
       "I have created a To-do list application with a local storage meanwhile you can able to watch your to-do's anytime. You can change the user name dynamically.",
@@ -44,7 +55,7 @@ const ProjectData = [
     delay: 600,
   },
   {
-    projectClass: "proj-five",
+    projectClass: "proj-six",
     name: "Street fighter",
     explanation:
       " I have created this fighter game. It is a multiplayer game. Player A needs to press Q to attack and A to heal.Player A needs to press P to attack and L to heal.",
@@ -52,7 +63,7 @@ const ProjectData = [
     cssPercent: "40%",
     jsPercent: "43%",
     projectLink: "https://dinesh6383.github.io/Street-Fighter/",
-    delay: 800,
+    delay: 700,
   },
 ];
 

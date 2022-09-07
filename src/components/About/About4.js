@@ -13,7 +13,6 @@ function About4() {
   ];
 
   const [wobble, setWobble] = useState(-1);
-  console.log(wobble);
   return (
     <div id="web-skill">
       <div className="web-title">

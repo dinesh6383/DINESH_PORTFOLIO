@@ -534,6 +534,10 @@
   color: white;
 }
 
+.proj-title p {
+  text-align: center;
+}
+
 .proj-names {
   display: flex;
   align-items: center;
@@ -545,7 +549,8 @@
 .proj-two,
 .proj-three,
 .proj-four,
-.proj-five {
+.proj-five,
+.proj-six {
   width: 350px;
   height: 600px;
   margin-top: 50px;
@@ -596,13 +601,24 @@
   height: 200px;
   border-radius: 7px 7px 0px 0px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+    url("/public/images/yt-media.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.proj-five > .proj-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 7px 7px 0px 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
     url("/public/images/to-do-list-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.proj-five > .proj-image {
+.proj-six > .proj-image {
   width: 100%;
   height: 200px;
   border-radius: 7px 7px 0px 0px;

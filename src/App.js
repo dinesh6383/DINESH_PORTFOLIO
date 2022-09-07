@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
 import Particle from "./components/Particle";
 import Header from "./components/Header";
@@ -7,10 +7,15 @@ import About from "./components/About/About";
 import Project from "./components/Project/Project";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {
   const [loader, setLoader] = useState(true);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   setTimeout(() => {
     setLoader(false);

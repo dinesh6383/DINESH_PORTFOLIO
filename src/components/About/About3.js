@@ -26,10 +26,9 @@ function About3() {
       <div className="lang-img">
         {languages.map((lang, index) => {
           return (
-            <Tada when={wobble == index ? true : false}>
+            <Tada key={index} when={wobble == index ? true : false}>
               <Bounce left delay={lang.time}>
                 <div
-                  key={index}
                   id={index}
                   className="lang-name"
                   style={{ fontSize: "110px" }}
