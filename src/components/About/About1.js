@@ -29,20 +29,6 @@ function About1() {
               I am looking forward to get job as a <span>Web Developer</span> to
               gain more knowledge in this stream
             </p>
-            <p>
-              These are the activitites apart from studies that I love to do!
-            </p>
-            <ul>
-              <li>
-                Playing <span>Volleyball</span>
-              </li>
-              <li>
-                Watching <span>movies</span>
-              </li>
-              <li>
-                Watching <span>Youtube contents</span>
-              </li>
-            </ul>
           </div>
         </Slide>
         <Slide right>

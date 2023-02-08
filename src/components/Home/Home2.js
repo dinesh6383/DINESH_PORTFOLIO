@@ -24,7 +24,7 @@ function Home2() {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("Frontend Developer")
+                    .typeString("MERN Developer")
                     .pauseFor(2000)
                     .deleteAll()
                     .typeString("Welcome's You")
@@ -37,7 +37,7 @@ function Home2() {
           </div>
         </Slide>
         <div className="intro-img">
-          <img src="images/home-main.svg" alt="home-image"></img>
+          <img src="images/home-main.svg" alt="home"></img>
         </div>
       </div>
     </div>

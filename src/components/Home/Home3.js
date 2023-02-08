@@ -19,7 +19,7 @@ function Home3() {
             <p>
               <img src="images/point.png" alt="point-img"></img>I'm a person who
               is eager to
-              <span>learn new things</span>
+              <span> learn new things</span>
             </p>
             <p>
               <img src="images/point.png" alt="point1-img"></img>I am fluent in{" "}
@@ -37,12 +37,7 @@ function Home3() {
             </p>
             <p>
               <img src="images/point.png" alt="point4-img"></img>
-              In my leisure time I try to solve <span>DSA problems </span>in
-              Geeks for Geeks
-            </p>
-            <p>
-              <img src="images/point.png" alt="point5-img"></img>
-              <span>FUN FACT</span> : I am a huge fan of Procastination😝{" "}
+              In my leisure time I try to solve <span>DSA problems </span>
             </p>
           </div>
         </Slide>

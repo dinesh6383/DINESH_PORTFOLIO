@@ -1,6 +1,13 @@
 import React, { useState } from "react";
-import { DiJavascript1, DiReact, DiHtml5, DiBootstrap } from "react-icons/di";
+import {
+  DiJavascript1,
+  DiReact,
+  DiHtml5,
+  DiNodejsSmall,
+  DiMongodb,
+} from "react-icons/di";
 import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import Tada from "react-reveal/Tada";
 import Bounce from "react-reveal/Bounce";
 import RubberBand from "react-reveal/RubberBand";
@@ -11,7 +18,9 @@ function About3() {
     { name: <FaCss3Alt />, time: 300 },
     { name: <DiJavascript1 />, time: 600 },
     { name: <DiReact />, time: 900 },
-    { name: <DiBootstrap />, time: 1200 },
+    { name: <SiTailwindcss />, time: 1200 },
+    { name: <DiNodejsSmall />, time: 1500 },
+    { name: <DiMongodb />, time: 1600 },
   ];
 
   const [wobble, setWobble] = useState(-1);
@@ -26,7 +35,7 @@ function About3() {
       <div className="lang-img">
         {languages.map((lang, index) => {
           return (
-            <Tada key={index} when={wobble == index ? true : false}>
+            <Tada key={index} when={wobble === index ? true : false}>
               <Bounce left delay={lang.time}>
                 <div
                   id={index}
