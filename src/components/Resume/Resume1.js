@@ -1,21 +1,10 @@
 import React from "react";
-import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import Flip from "react-reveal/Flip";
 
 function Resume1() {
-  const handleResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/1toi0ZXh70LDglh4bt9oQoDka4-WbYR1h/view?usp=sharing"
-    );
-  };
   return (
     <div id="resume-one">
       <div className="resume-holder">
-        <div className="button-one">
-          <button onClick={handleResume}>
-            <FileDownloadOutlinedIcon /> Resume
-          </button>
-        </div>
         <div className="resume">
           <Flip left>
             <div className="extra-activities">
@@ -44,33 +33,6 @@ function Resume1() {
                   is a senior level tournament.
                 </p>
                 <p>I have played district level matches in Coimbatore.</p>
-              </div>
-            </div>
-          </Flip>
-          <Flip left>
-            <div className="experience">
-              <div className="experience-title">
-                <h2>Experience</h2>
-              </div>
-              <div className="work">
-                <div className="work-role">
-                  <h3>QA Engineer</h3>
-                </div>
-                <div className="my-work">
-                  <p>
-                    I am a <span>Fresher</span>. Currently I am working as a
-                    <span>Quality assurance Engineer</span>.
-                  </p>
-                  <p>
-                    But as a<span>developer</span>I don't have any prior
-                    experience.
-                  </p>
-                  <p>
-                    I am <span>learning</span>and upgrading my skills day by
-                    day.
-                  </p>
-                  <p>I am keen to work as a Developer.</p>
-                </div>
               </div>
             </div>
           </Flip>
@@ -116,11 +78,6 @@ function Resume1() {
               </div>
             </div>
           </Flip>
-        </div>
-        <div className="button-two">
-          <button onClick={handleResume}>
-            <FileDownloadOutlinedIcon /> Resume
-          </button>
         </div>
       </div>
     </div>
